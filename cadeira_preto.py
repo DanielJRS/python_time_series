@@ -7,3 +7,24 @@
 
 # Principal diferença: Cabeçalho: documenta o arquivo inteiro (comentários normais #); Docstring: documenta partes específicas do código (strings """) e pode ser acessada programaticamente com help()
 #O docstring é mais "vivo" - Python consegue lê-lo e exibi-lo quando você pede ajuda sobre uma função.
+
+
+# exercício 1: formate o cabeçalho deste arquivo
+
+
+# exercícios de 2 a 4, implementar os métodos abaixo:
+
+def maximo(nums):
+    """Retorna o maior elemento de uma lista não vazia, sem usar max()."""
+    # TODO: percorra a lista guardando o maior atual
+    ...
+
+def e_par(n: int) -> bool:
+    """Retorna True se n é par, senão False."""
+    # TODO: retorne se n é par
+    ...
+
+def fatorial(n: int) -> int:
+    """Retorna n! (n fatorial). Para n<0, levante ValueError."""
+    # TODO: implemente de forma iterativa (sem recursão)
+    ...
